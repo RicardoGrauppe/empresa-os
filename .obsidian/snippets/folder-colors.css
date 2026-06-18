@@ -6,6 +6,16 @@
   border-radius: 4px;
 }
 
+/* 00 INBOX  →  Laranja */
+.nav-folder-title[data-path^="00"] {
+  background-color: rgba(251, 146, 60, 0.08) !important;
+}
+
+/* 01 Dashboard  →  Teal */
+.nav-folder-title[data-path^="01"] {
+  background-color: rgba(20, 184, 166, 0.08) !important;
+}
+
 /* Grupo 1 · Identidade & Direção  →  Roxo */
 .nav-folder-title[data-path^="02"],
 .nav-folder-title[data-path^="03"],
